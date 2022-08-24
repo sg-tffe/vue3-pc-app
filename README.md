@@ -1,4 +1,4 @@
-# hello
+# vue3-pc-app
 
 ## Project setup
 
@@ -24,6 +24,8 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
+### fix eslint error
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+npm run prettier
+```
