@@ -1,0 +1,288 @@
+//用来控制输入框的长度
+.ivu-input-detail {
+  width: 100%;
+}
+//用来控制选择框的长度
+.ivu-select-detail {
+  width: 100%;
+}
+// 工具类型
+.right {
+  float: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+.fix-form-btn {
+  .ivu-form-item-label {
+    padding: 0;
+  }
+}
+
+.fix-table-btn {
+  &:focus {
+    box-shadow: none !important;
+  }
+  &:not([disabled]) {
+    &:hover {
+      background-color: transparent;
+    }
+    &:active {
+      background-color: transparent;
+    }
+  }
+}
+.ivu-btn-text {
+  color: #5cadff;
+}
+
+// 模块覆盖类型
+.m-modal {
+  .header {
+    font-size: 16px;
+    text-align: left;
+  }
+  .content {
+    width: 100%;
+  }
+  .ivu-modal-body {
+    padding: 16px 60px 16px 50px;
+  }
+}
+
+.m-date-picker {
+  width: 100%;
+}
+
+.m-pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@keyframes ani-demo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.m-loading .spin-icon {
+  animation: ani-demo-spin 1s linear infinite;
+}
+.ivu-btn > .ivu-icon + span,
+.ivu-btn > span + .ivu-icon {
+  margin-left: 0;
+}
+.ivu-menu-submenu-title {
+  font-weight: 450;
+}
+.ivu-layout-sider-children {
+  overflow: hidden;
+}
+.ivu-layout-sider-zero-width-trigger {
+  display: none;
+}
+
+tr.m-table-top-row td {
+  color: #f5222c;
+  .ivu-btn-text {
+    color: #f5222c;
+    &:hover {
+      color: #d60812;
+    }
+  }
+}
+
+// warning moal
+.m-moal-warning {
+  .ivu-icon-android-alert {
+    color: #ed4014;
+    font-size: 30px;
+  }
+}
+
+// reset wodre-break
+.ivu-table-cell,
+th .ivu-table-cell {
+  word-break: break-word;
+  text-overflow: initial;
+  word-wrap: break-word;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.locale-select {
+  .ivu-select-selection {
+    background-color: transparent;
+    border: 0;
+    .ivu-select-selected-value {
+      color: #fff;
+    }
+  }
+}
+
+.m-card {
+  margin-bottom: 20px;
+  .card-title {
+    .ivu-icon {
+      vertical-align: sub;
+    }
+    &.active {
+      color: #5cadff;
+      .ivu-icon::before {
+        color: #5cadff;
+      }
+    }
+  }
+}
+
+.m-table {
+  border: 1px solid #e9eaec;
+  border-collapse: collapse;
+  .col {
+    line-height: 1.5;
+    width: 16%;
+    border-left: 1px solid #e9eaec;
+    border-top: 1px solid #e9eaec;
+    padding: 10px 15px;
+    word-break: break-all;
+    &.title {
+      color: #495060;
+      font-weight: bold;
+      background-color: #f8f8f9;
+    }
+  }
+}
+
+.ivu-icon-ios-help-circle {
+  left: 20px;
+}
+
+.ivu-form-item {
+  margin-bottom: 4px !important;
+  vertical-align: top;
+  zoom: 1;
+  .ivu-form-item-error-tip {
+    position: relative;
+    line-height: 1;
+    padding-top: 6px;
+    color: #ed4014;
+  }
+}
+
+.m-form-group {
+  font-size: 0;
+  box-sizing: border-box;
+  .ivu-form-item {
+    width: 25%;
+    margin-right: 0;
+    padding-right: 10px;
+    margin-bottom: 10px !important;
+    button {
+      min-width: 80px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.is-collapsed .m-form-group .ivu-form-item {
+  width: 20%;
+}
+
+@media screen and (max-width: 1400px) {
+  .m-form-group {
+    .ivu-form-item {
+      width: 25%;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .m-form-group {
+    .ivu-form-item {
+      width: 33.33%;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .m-form-group {
+    .ivu-form-item {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .m-form-group {
+    .ivu-form-item {
+      width: 100%;
+    }
+  }
+}
+
+.m-form-group {
+  .long {
+    width: inherit;
+    min-width: 25%;
+  }
+}
+
+.m-list-wrap {
+  .handle-wrap {
+    margin-bottom: 15px;
+    .ivu-btn {
+      margin-right: 15px;
+    }
+  }
+}
+
+.m-modal-form {
+  margin-right: 50px;
+}
+
+.m-detail-form {
+  margin-top: 30px;
+  .ivu-form-item {
+    width: 40%;
+  }
+}
+
+.ivu-input[disabled] {
+  color: #666;
+}
+.ivu-checkbox-disabled.ivu-checkbox-checked .ivu-checkbox-inner:after {
+  border-color: #666;
+}
+.ivu-radio-disabled .ivu-radio-inner:after {
+  background-color: #666;
+}
+.ivu-select-disabled .ivu-select-selection {
+  color: #666;
+}
+
+.m-modal-waring-info {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  .icon {
+    margin-right: 10px;
+  }
+}
+
+.header-bar .ivu-menu-horizontal .ivu-menu-item,
+.ivu-menu-horizontal .ivu-menu-submenu {
+  padding: 0 15px;
+}

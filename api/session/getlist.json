@@ -1,0 +1,36 @@
+{
+  "code": 200,
+  "data": {
+    "list": [
+      {
+        "id": 12345678,
+        "name": "张三",
+        "age": 11,
+        "class": 2,
+        "update_time": "2019-06-11 15:10:11",
+        "operator": "张三"
+      },
+      {
+        "id": 12345678,
+        "name": "jsd",
+        "age": 3,
+        "class": 2,
+        "update_time": "2019-06-11 15:10:11",
+        "operator": "how"
+      },
+      {
+        "id": 12345678,
+        "name": "jsd",
+        "age": 13,
+        "class": 2,
+        "update_time": "2019-06-11 15:10:11",
+        "operator": "张三"
+      }
+    ],
+    "arrPager": {
+      "count": 25,
+      "pageSize": 10,
+      "page": 1
+    }
+  }
+}

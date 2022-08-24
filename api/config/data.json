@@ -1,0 +1,146 @@
+{
+  "code": 200,
+  "msg": "ok",
+  "data": {
+    "subscribe_source_map": {
+      "1": "公众号搜索",
+      "4": "扫描二维码"
+    },
+    "order_refuse_event": {
+      "ocr_recognize": "orc识别",
+      "indate_verify": "身份证有效期",
+      "passive_verify": "无源比对校验",
+      "active_verify": "有源比对校验",
+      "pic_download": "图片下载",
+      "realname_occupy": "身份证号已被其他手机号占用校验",
+      "realname_verified": "实名信息与本地是否一致"
+    },
+    "order_refuse_reason": {
+      "1": "正面识别错误",
+      "2": "反面识别错误",
+      "3": "身份证反面照数据校验失败",
+      "4": "无源比对未通过",
+      "5": "有源比对未通过",
+      "6": "下载图片失败",
+      "7": "身份证已被其他账号实名",
+      "8": "姓名不匹配",
+      "9": "身份证号不匹配"
+    },
+    "order_refuse_third_reason": {
+      "1": "请调整角度，保持清晰",
+      "2": "身份证复印件",
+      "3": "OCR识别失败",
+      "4": "身份证翻拍"
+    },
+    "quota_type": {
+      "official": "正式额度",
+      "temporary": "临时额度"
+    },
+    "product": {
+      "SG-XJ": "一单一审",
+      "SG-XHXJ": "循环额度"
+    },
+    "quota_op_map": {
+      "1": "冻结",
+      "2": "解冻"
+    },
+    "quota_op_status_map": {
+      "1": "申请中",
+      "2": "申请完成",
+      "3": "审核中",
+      "4": "审核完成"
+    },
+    "quota_product": {
+      "SG-XJ": "一单一审",
+      "SG-XHXJ": "循环额度"
+    },
+    "log_channel_name_map": {
+      "SG1001": "小米",
+      "SG0058": "分期乐",
+      "SG0011": "榕树app",
+      "SG0056": "国美易卡"
+    },
+    "order_status_map": {
+      "100": "基本资料填写中",
+      "200": "基本资料填写完成"
+    },
+    "complement_config_map": {
+      "maritalStatus": "婚姻状况",
+      "workNature": "单位性质",
+      "monthPay": "月收入",
+      "position": "职位",
+      "work": "工作单位",
+      "email": "邮箱",
+      "occupationType": "职业类别",
+      "education": "学历",
+      "bankcard": "银行卡信息（卡号、预留手机号）",
+      "bankcard_verify": "银行卡短信验证",
+      "money_function": "借款用途"
+    },
+    "channel_name_map": {
+      "1": "导流渠道1",
+      "2": "导流渠道2"
+    },
+    "channel": ["SG0001", "SG0002", "SG0003", "SG0004", "SG0005", "SG0006", "SG0007", "SG0008", "SG0009"],
+    "card_type_map": {
+      "1": "半年卡",
+      "2": "一年卡"
+    },
+    "member_status": {
+      "1": "正常",
+      "2": "失效",
+      "3": "退款"
+    },
+    "partner": {
+      "1": "烈熊"
+    },
+    "vip_order_status": {
+      "1": "支付成功",
+      "2": "支付失败",
+      "3": "退款成功",
+      "4": "退款失败"
+    },
+    "reward_type": {
+      "1": "拒就陪",
+      "2": "借款返现",
+      "3": "金币兑换",
+      "4": "还款返现"
+    },
+    "app_product_map": {
+      "SG-XHXJ": "极速贷（IRR36）",
+      "SG-SJSH": "优质贷（IRR24）"
+    },
+    "app_subsidy_switch_map": {
+      "1": "默认开启",
+      "2": "默认关闭"
+    },
+    "welfare_column_type": {
+      "1": "横向泳道",
+      "2": "平铺内容"
+    },
+    "welfare_column_color": {
+      "1": "金色",
+      "2": "蓝色",
+      "3": "红色",
+      "4": "紫色",
+      "5": "湖蓝色",
+      "6": "粉色",
+      "7": "绿色",
+      "8": "黄色"
+    },
+    "welfare_third_connect_login": {
+      "0": "不联登",
+      "1": "烈熊"
+    },
+    "contract_show_scene": {
+      "1": "授信-基本信息填写",
+      "2": "授信-活体认证",
+      "3": "授信-绑卡",
+      "4": "支用-确认借款页"
+    },
+    "contract_sign_scene": {
+      "1": "授信-申请授信",
+      "2": "支用-申请支用"
+    }
+  }
+}
